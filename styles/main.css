@@ -1,0 +1,113 @@
+.hero {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefaf5;
+  padding-left: 6.25rem;
+}
+.hero__img {
+  height: 50rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin-right: 5rem;
+}
+
+.hero__txt {
+  color: #335576;
+  margin: 5rem 5rem 0 3rem;
+}
+.hero__txt p {
+  margin-bottom: 2rem;
+}
+.hero__txt h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.hero__button {
+  background-color: #db7a4e;
+  color: white;
+  font-weight: 500;
+  border-radius: 45px;
+  text-decoration: none;
+  padding: 14px 50px;
+  font-size: 1.3rem;
+  border: 0px;
+  transition-duration: 0.5s; /*DIVING DEEPER*/
+}
+
+/*DIVING DEEPER*/
+
+.hero__button:hover {
+  letter-spacing: 3px;
+}
+
+/* RECOMMENDATIONS SECTION  */
+
+.tours {
+  width: 100%;
+}
+.tours__heading {
+  margin: 3rem 0rem 1rem 3rem;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+  color: #335576;
+}
+.tours__cards {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  padding: 2rem 5rem 0rem 5rem;
+}
+.card {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+  box-shadow: 0px 4px 4px rgb(0 0 0 /20%);
+}
+.tours__cards__Hawaii {
+  background-image: url(../Assets/Images/hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours__cards__Hawaii h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 26rem;
+  margin-left: 12rem;
+  text-decoration: none;
+}
+.tours__cards__Iceland {
+  background-image: url(../Assets/Images/iceland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours__cards__Iceland h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 26rem;
+  margin-left: 11rem;
+  text-decoration: none;
+}
+.tours__cards__Greece {
+  background-image: url(../Assets/Images/greece.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours__cards__Greece h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 26rem;
+  margin-left: 12rem;
+  text-decoration: none;
+}
