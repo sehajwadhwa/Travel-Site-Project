@@ -1,3 +1,6 @@
+.nav-bar__menu--icelandhover {
+  border-bottom: 4px solid #db7a4e;
+}
 .tours-hawaii {
   background-image: url(../Assets/Images/hawaii.jpg);
   background-position: center;
@@ -9,7 +12,11 @@
   padding-top: 6rem;
   margin-left: 5rem;
 }
-.tours-iceland h1 {
+.tours-iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-position: center;
+}
+.tours-iceland__heading {
   color: #ffffff;
   font-size: 5rem;
   padding-top: 6rem;
@@ -21,49 +28,45 @@
   padding-top: 6rem;
   margin-left: 5rem;
 }
-.tour_cards {
+.tour__cards {
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
-  padding: 10rem;
+  padding: 7rem 5rem;
 }
-.cards_plan {
+.tour__cards-plan {
   color: #000;
   padding: 2rem;
   background-color: #ffffff;
 }
 .cards {
   width: 28rem;
-  height: 48rem;
-  border-radius: 5px;
+  height: 35rem;
+  border-radius: 10px;
   margin-right: 3rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 20%);
+  box-shadow: 0px 4px 4px rgb(0 0 0 /20%);
 }
-.cards_title {
+.cards__title {
   font-size: 2rem;
   text-align: center;
   display: block;
   border-bottom: solid 2px black;
   font-weight: 700;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.cards_plan li {
+.tour-cards__list li {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   background-color: #fefaf5;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 2rem;
+
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.tours-iceland {
-  background-image: url(../Assets/Images/iceland.jpg);
-  background-position: center;
-  background-size: cover;
-}
+
 .tours-greece {
   background-image: url(../Assets/Images/greece.jpg);
   background-position: center;
