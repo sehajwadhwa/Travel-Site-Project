@@ -45,7 +45,9 @@ h1 {
   font-weight: 300;
   color: #335576;
 }
-
+.nav-bar__menu--hover {
+  border-bottom: 4px solid #db7a4e;
+}
 /* DIVING DEEPER */
 
 .nav-bar__menu li a:hover {
