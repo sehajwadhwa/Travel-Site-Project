@@ -1,4 +1,4 @@
-.nav-bar__menu--icelandhover {
+.nav-bar__menu--hover {
   border-bottom: 4px solid #db7a4e;
 }
 .tours-hawaii {
@@ -6,6 +6,11 @@
   background-position: center;
   background-size: cover;
 }
+.tours-greece {
+  background-image: url(../Assets/Images/greece.jpg);
+  background-position: center;
+}
+
 .tours-hawaii h1 {
   color: #ffffff;
   font-size: 5rem;
@@ -22,7 +27,7 @@
   padding-top: 6rem;
   margin-left: 5rem;
 }
-.tours-greece h1 {
+.tours-greece__heading {
   color: #ffffff;
   font-size: 5rem;
   padding-top: 6rem;
@@ -65,10 +70,4 @@
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
-}
-
-.tours-greece {
-  background-image: url(../Assets/Images/greece.jpg);
-  background-position: center;
-  background-size: cover;
 }
